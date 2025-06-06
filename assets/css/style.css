@@ -983,6 +983,11 @@ html[lang=en] .header__logo .header__logo-en {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
+@media (max-width: 768px) {
+  html[lang=en] .header__logo .header__logo-en {
+    font-size: 1.8rem;
+  }
+}
 
 .page-header {
   position: relative;
